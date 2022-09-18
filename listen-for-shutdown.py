@@ -7,7 +7,7 @@ import time
 
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(3, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(3, GPIO.IN)
 GPIO.setup(17, GPIO.OUT)
 GPIO.output(17, True)
 time.sleep(0.01)
